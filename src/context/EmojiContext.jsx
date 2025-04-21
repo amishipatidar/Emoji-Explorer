@@ -5,8 +5,15 @@ export const EmojiContext = createContext();
 const EmojiProvider = ({ children }) => {
   const [emojiList, setEmojiList] = useState([]);
 
+  // useEffect(() => {
+  //   fetch("/emojiData.json")
+  //     .then(res => res.json())
+  //     .then(data => setEmojiList(data))
+  //     .catch(err => console.error("Failed to load emoji data", err));
+  // }, []);
+
   useEffect(() => {
-    fetch("/emojiData.json")
+    fetch(`${import.meta.env.BASE_URL}emojiData.json`)
       .then(res => res.json())
       .then(data => setEmojiList(data))
       .catch(err => console.error("Failed to load emoji data", err));
