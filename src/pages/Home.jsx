@@ -1,5 +1,6 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
+ 
 const Home = () => {
   return (
     <div className="min-h-screen flex flex-col justify-between bg-gradient-to-br from-slate-900 to-slate-800 text-white">
@@ -11,12 +12,12 @@ const Home = () => {
         <p className="text-lg md:text-xl text-slate-300 mb-8 animate-fadeIn delay-100">
           Dive into the world of emojis — Discover meanings, categories, and trends.
         </p>
-        <a
-          href="/explorer"
+        <Link
+          to="/explorer"
           className="bg-cyan-500 hover:bg-cyan-600 text-white font-semibold px-6 py-3 rounded-full shadow-md transition duration-300 animate-fadeIn delay-200"
         >
           Start Exploring
-        </a>
+        </Link>
       </section>
 
       {/* Cool Feature Highlights */}
