@@ -61,5 +61,5 @@ Whether you're curious about what an emoji really means or just looking for some
    
  4. **Open the app in your browser**
     
-   ```bash
-   http://localhost:5173/emoji-explorer/
+    ```bash
+    http://localhost:5173/emoji-explorer/
