@@ -1,0 +1,64 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Font Setup */
+@layer base {
+  html {
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+/* Body Background - keep the gradient, but tone it */
+body {
+  @apply bg-gradient-to-br from-[#0f172a] via-[#1e293b] to-[#0f172a] text-slate-100 min-h-screen flex flex-col;
+}
+
+/* Navbar - Sleek black with subtle glow */
+.navbar {
+  @apply bg-black text-cyan-100 p-4 flex justify-between items-center border-b border-cyan-600 shadow-lg;
+}
+
+.navbar a {
+  @apply text-cyan-100 hover:text-cyan-400 font-medium transition duration-200;
+}
+
+.navbar .logo {
+  @apply font-extrabold text-3xl tracking-tight text-cyan-400;
+}
+
+/* Page Container */
+.page-container {
+  @apply max-w-5xl mx-auto px-6 py-10 text-slate-200;
+}
+
+/* Cards - smooth dark grey, not dead black */
+.card {
+  @apply bg-[#111827] text-slate-100 rounded-2xl shadow-xl p-6 border border-slate-700 transition-all duration-300 hover:border-cyan-500 hover:shadow-cyan-500/20;
+}
+
+/* Emoji Grid */
+.emoji-grid {
+  @apply grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6;
+}
+
+/* Emoji Item - now fun, alive, animated */
+.emoji-item {
+  @apply text-5xl text-center transition-all duration-300 ease-in-out transform hover:scale-110 hover:rotate-2 hover:bg-cyan-900/30 hover:text-cyan-300 rounded-xl p-3;
+}
+
+/* Section Title */
+.section-title {
+  @apply text-4xl font-bold text-cyan-300 mb-8 text-center drop-shadow-md;
+}
+
+/* Search Bar - clean black box */
+.search-bar {
+  @apply w-full border border-cyan-500 bg-[#0f172a] text-slate-100 placeholder-slate-500 rounded-lg p-3 focus:outline-none focus:border-cyan-600 transition-all duration-300;
+}
+
+/* Footer - balanced finish */
+.footer {
+  @apply bg-[#0f172a] text-slate-400 text-center py-6 mt-auto border-t border-slate-700;
+}

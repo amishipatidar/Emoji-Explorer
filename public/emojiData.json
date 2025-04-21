@@ -1,0 +1,72 @@
+[
+  {
+    "emoji": "😀",
+    "name": "Grinning Face",
+    "category": "Smileys & Emotion",
+    "description": "A yellow face with a broad, open smile showing upper teeth. Often conveys general happiness and good-natured amusement.",
+    "sentiment": "Positive"
+  },
+  {
+    "emoji": "❤️",
+    "name": "Red Heart",
+    "category": "Symbols",
+    "description": "A classic red love heart emoji, used to express love and affection.",
+    "sentiment": "Positive"
+  },
+  {
+    "emoji": "🔥",
+    "name": "Fire",
+    "category": "Travel & Places",
+    "description": "A flame, used to convey something is cool, awesome, exciting, or 'on fire'.",
+    "sentiment": "Positive"
+  },
+  {
+    "emoji": "😂",
+    "name": "Face with Tears of Joy",
+    "category": "Smileys & Emotion",
+    "description": "A face laughing so hard it’s crying. Often used for something extremely funny.",
+    "sentiment": "Positive"
+  },
+  {
+    "emoji": "🥺",
+    "name": "Pleading Face",
+    "category": "Smileys & Emotion",
+    "description": "A face with large puppy-dog eyes, often used to plead or beg.",
+    "sentiment": "Neutral"
+  },
+  {
+    "emoji": "👍",
+    "name": "Thumbs Up",
+    "category": "People & Body",
+    "description": "A thumbs-up gesture indicating approval, agreement, or encouragement.",
+    "sentiment": "Positive"
+  },
+  {
+    "emoji": "🎉",
+    "name": "Party Popper",
+    "category": "Activities",
+    "description": "A party popper with confetti and streamers, used to celebrate events or achievements.",
+    "sentiment": "Positive"
+  },
+  {
+    "emoji": "🎂",
+    "name": "Birthday Cake",
+    "category": "Food & Drink",
+    "description": "A cake with candles, used to celebrate birthdays or other special occasions.",
+    "sentiment": "Positive"
+  },
+  {
+    "emoji": "🚀",
+    "name": "Rocket",
+    "category": "Travel & Places",
+    "description": "A rocket ship blasting off. Can indicate fast progress or success.",
+    "sentiment": "Positive"
+  },
+  {
+    "emoji": "🌟",
+    "name": "Glowing Star",
+    "category": "Travel & Places",
+    "description": "A glowing five-pointed star, often used to indicate fame, excellence, or something special.",
+    "sentiment": "Positive"
+  }
+]
