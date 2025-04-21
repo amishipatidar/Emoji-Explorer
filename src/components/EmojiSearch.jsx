@@ -1,5 +1,7 @@
 import { useContext, useState } from "react";
 import { EmojiContext } from "../context/EmojiContext";
+import React from 'react';
+
 
 const EmojiSearch = () => {
   const { emojiList } = useContext(EmojiContext);

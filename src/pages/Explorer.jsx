@@ -1,4 +1,5 @@
 import EmojiSearch from "../components/EmojiSearch";
+import React from 'react';
 
 const Explorer = () => {
   return (

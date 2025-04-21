@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { EmojiContext } from "../context/EmojiContext";
+import React from 'react';
 
 const popularEmojis = ['😂', '❤️', '🔥', '🙏', '👍', '😍', '🥺', '😭', '😘', '😊', '😁', '🤔', '🙌', '💀', '😎'];
 
