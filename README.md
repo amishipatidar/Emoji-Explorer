@@ -44,26 +44,22 @@ Whether you're curious about what an emoji really means or just looking for some
 ## 🧰 Setup Instructions
 
 1. **Clone the Repository**
+   
    ```bash
    git clone https://github.com/amishipatidar/emoji-explorer.git
    cd emoji-explorer
    
 2. **Install Dependencies**
+   
    ```bash
    npm install
 
 3. **Run the Development Server**
+   
    ```bash
    npm run dev
    
  4. **Open the app in your browser**
+    
    ```bash
    http://localhost:5173/emoji-explorer/
-
-
-
-
-
-
-
-
