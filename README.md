@@ -12,12 +12,8 @@ Whether you're curious about what an emoji really means or just looking for some
 
 ## ✨ Features
 
-- 🔍 Real-time emoji search with autocomplete
-- 📂 Explore emojis by category
 - 😄 View detailed emoji meanings and sentiment
 - 📈 See trending emojis and most used ones
-- 💾 Save favorite emojis using localStorage
-- 📋 Copy-to-clipboard functionality
 - 🎨 Beautiful UI with responsive design
 - ⚡ Fast performance with Vite
 
@@ -30,9 +26,18 @@ Whether you're curious about what an emoji really means or just looking for some
 - **React Router** for navigation
 - **Tailwind CSS** for utility-first styling
 - **Framer Motion** for smooth animations
-- **Emoji APIs** (Live Emoji, Sentiment, etc.)
-- **LocalStorage** for user favorites
-- **Axios** for API calls
+  
+---
+
+## 💡 What Makes It Meaningful
+1. Real-World Use Case
+- People search emoji meanings all the time.
+- Apps like Slack, WhatsApp, Discord use emojis heavily — your project mimics a feature found in real tools.
+- Useful for kids, language learners, and even designers/content creators.
+
+2. User-Focused & Engaging
+- You’re solving a real user problem: “What does this emoji mean?”
+- Adding features like recent searches, favorites, and filters makes it more interactive.
 
 ---
 
