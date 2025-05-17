@@ -2,7 +2,6 @@ import { useContext, useState } from "react";
 import { EmojiContext } from "../context/EmojiContext";
 import React from 'react';
 
-
 const EmojiSearch = () => {
   const { emojiList } = useContext(EmojiContext);
   const [search, setSearch] = useState("");
@@ -19,10 +18,9 @@ const EmojiSearch = () => {
         placeholder="Search for an emoji..."
         value={search}
         onChange={(e) => setSearch(e.target.value)}
-        className="w-full p-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
+        className="w-full p-3 rounded-md bg-slate-800 text-white border border-slate-600 focus:outline-none focus:ring-2 focus:ring-cyan-500"
       />
 
-      {/* Only show results if search is not empty */}
       {search && (
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 mt-6">
           {filtered.length > 0 ? (
